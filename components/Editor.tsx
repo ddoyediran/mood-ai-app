@@ -16,12 +16,11 @@ const Editor = ({ entry }) => {
       setIsLoading(false);
     },
   });
-
   return (
     <div className="w-full h-full">
-      {isLoading && <div>Loading...</div>}
+      {isLoading && <div>...loading</div>}
       <textarea
-        className=" w-full h-full p-8 text-xl outline-none"
+        className="w-full h-full p-8 text-xl outline-none"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
