@@ -10,7 +10,7 @@ const DashboardLayout = ({ children }) => {
   return (
     <div className="h-screen w-screen relative">
       <aside className="absolute left-0 top-0 h-full w-[200px] border-r border-black/10">
-        <div className="">SMood</div>
+        <div className="">Mood</div>
 
         <ul>
           {links.map((link) => (
